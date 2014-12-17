@@ -1,0 +1,51 @@
+#page-peel-banner {
+   position: relative;
+   background: transparent !important;
+}
+#page-peel-banner img {
+   z-index: 9999;
+   position: absolute;
+   right: 0;
+   top: 0;
+   width: 100px;
+   height: 104px;
+   -ms-interpolation-mode: bicubic;
+}
+#page-peel-banner span {
+   /* background-image: url('includes/corner_banner/imagens/Small.png'); */
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-position: right top;
+   background-color: #FFF;
+   width: 100px;
+   height: 100px;
+}
+
+#page-peel-banner .page-peel-banner-img {
+   z-index: 8888;
+   position: absolute;
+   right: 0;
+   top: 0;
+   width: 100px;
+   height: 100px;
+   text-indent: -9999px;
+}
+
+.peeloverlay {
+   z-index: 999999;
+   display: block;
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   /*background: url(/includes/corner_banner/imagens/peeloverlay.png) no-repeat top right;*/
+   background-repeat: no-repeat;
+   background-position: top right;
+   right: 0;
+   top: 0;
+
+   -moz-background-size: 100px 100px;
+   -o-background-size: 100px 100px;
+   -webkit-background-size: 100px 100px;
+   -khtml-background-size: 100px 100px;
+   background-size: 100px 100px !important;
+}
